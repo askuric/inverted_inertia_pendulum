@@ -9,8 +9,8 @@ This project is based on Nucleo STM32F411RE microcontroller. And the repo contai
 
 The video of it working can be seen on [Link](https://photos.app.goo.gl/Q3Gbn8rL3XPMuehf8):
  
-<p><img src="./Photos/pendulum1.png" height="500px">
-<img src="./Photos/pendulum2.png" height="500px"></p>
+<p><img src="./Photos/pendulum1.jpg" height="500px">
+<img src="./Photos/pendulum2.jpg" height="500px"></p>
 
 # Electronics hardware
 - Nuceleo STM32F411RE - [Mouser](https://hr.mouser.com/ProductDetail/STMicroelectronics/NUCLEO-F411RE?qs=%2fha2pyFaduj0LE%252bzmDN2WGOyc9ZJn6rAAaZxUZnl1jWj%2fTN4JYE9Mw%3d%3d) 
