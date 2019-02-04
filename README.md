@@ -1,7 +1,5 @@
 # Inertia Wheel Inverted Pendulum Project 
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 This repo contains CubeMX and Keil project for Inverted pendulum project based on Nucleo STM32F411RE microcontroller. 
 This project is suitable for electrical engineering studets which want a unstable proces to test their algorithms, the primary contorller used in this project is LQR.  
 
@@ -22,4 +20,8 @@ The video of it working can be seen on link:
 
 # Control algorithm
  - LQR algorithm based parametered for using precise model
- 
+# Connecting the hardware
+
+
+# Running the code
+ - Build the Keil project and download it to your Nucleo
