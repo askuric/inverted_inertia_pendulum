@@ -24,8 +24,9 @@ The video of it working can be seen on [Link](https://photos.app.goo.gl/Q3Gbn8rL
 
 # Control algorithm
  - LQR algorithm based parametered for using precise model
-# Connecting the hardware
 
+# Connecting the hardware
+<iframe src="https://drive.google.com/file/d/1USdLsrrQDgQWYp4ZQMOh_oSesHfucrCN/preview" width="640" height="480"></iframe>
 
 # Running the code
  - Build the Keil project and download it to your Nucleo
