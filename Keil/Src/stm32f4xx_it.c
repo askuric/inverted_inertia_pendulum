@@ -37,7 +37,7 @@
 
 /* USER CODE BEGIN 0 */
 
-#include "motor.h"
+#include "pendulum.h"
 #include <math.h>
 /* USER CODE END 0 */
 
@@ -184,13 +184,14 @@ void SysTick_Handler(void)
   HAL_IncTick();
   HAL_SYSTICK_IRQHandler();
   /* USER CODE BEGIN SysTick_IRQn 1 */
-	if(n == 50){
+	if(n >= (M_Ts*1000)){
 		// gather state variables
-		motor2_variables_iter();
+		motor_variables_iter();
 		pendulum_variables_iter();
 		
 		if(fabs(pendulum.position) < PI/5){
 			pendulum_LQR();
+			//pendulum_P();
 		}else{
 			pendulum_disable();
 		}

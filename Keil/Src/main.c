@@ -41,7 +41,7 @@
 #include "stm32f4xx_hal.h"
 
 /* USER CODE BEGIN Includes */
-#include "motor.h"
+#include "pendulum.h"
 
 /* USER CODE END Includes */
 
@@ -75,15 +75,6 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
 
 /* USER CODE BEGIN PFP */
 /* Private function prototypes -----------------------------------------------*/
-
-void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)  
-{ 
-  if (hadc->Instance == ADC1) 
-    { 
-			motor1.current = (float)((int)adcbuff[0]);
-			motor2.current = (float)((int)adcbuff[1]);
-    } 
-}
 
 /* USER CODE END PFP */
 
@@ -127,16 +118,12 @@ int main(void)
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
 
-	// init encoder
+	// init encoders
 	HAL_TIM_Encoder_Start(&htim4,TIM_CHANNEL_ALL);
 	HAL_TIM_Encoder_Start(&htim3,TIM_CHANNEL_ALL);
 	
 	// init PWM
 	HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_3);
-	//HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_1);
-
-	// init adc
-	HAL_ADC_Start_DMA(&hadc1,(uint32_t *)adcbuff,ADC_BUFF_SIZE);
 	
   /* USER CODE END 2 */
 
@@ -144,7 +131,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-		count = TIM2->CCR3;
+		
+		// no code in while loop, everything is in the function SysTick_Handler() in the stm32f4xx_it.c
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */

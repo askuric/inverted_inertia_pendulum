@@ -539,7 +539,7 @@
   </Group>
 
   <Group>
-    <GroupName>Motor_lib</GroupName>
+    <GroupName>Pendulum_lib</GroupName>
     <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
@@ -551,8 +551,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Src\Motor_lib\motor.c</PathWithFileName>
-      <FilenameWithoutPath>motor.c</FilenameWithoutPath>
+      <PathWithFileName>..\Src\Pendulum_lib\pendulum.c</PathWithFileName>
+      <FilenameWithoutPath>pendulum.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -563,8 +563,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\Inc\Motor_lib\motor.h</PathWithFileName>
-      <FilenameWithoutPath>motor.h</FilenameWithoutPath>
+      <PathWithFileName>..\Inc\Pendulum_lib\pendulum.h</PathWithFileName>
+      <FilenameWithoutPath>pendulum.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F411xE</Define>
               <Undefine></Undefine>
-              <IncludePath>../Inc;           ../Drivers/STM32F4xx_HAL_Driver/Inc;           ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;           ../Drivers/CMSIS/Device/ST/STM32F4xx/Include;           ../Drivers/CMSIS/Include;           ..\Motor_lib</IncludePath>
+              <IncludePath>../Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\Src\Pendulum_lib;..\Inc\Pendulum_lib</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -504,17 +504,17 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Motor_lib</GroupName>
+          <GroupName>Pendulum_lib</GroupName>
           <Files>
             <File>
-              <FileName>motor.c</FileName>
+              <FileName>pendulum.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Src\Motor_lib\motor.c</FilePath>
+              <FilePath>..\Src\Pendulum_lib\pendulum.c</FilePath>
             </File>
             <File>
-              <FileName>motor.h</FileName>
+              <FileName>pendulum.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\Inc\Motor_lib\motor.h</FilePath>
+              <FilePath>..\Inc\Pendulum_lib\pendulum.h</FilePath>
             </File>
           </Files>
         </Group>

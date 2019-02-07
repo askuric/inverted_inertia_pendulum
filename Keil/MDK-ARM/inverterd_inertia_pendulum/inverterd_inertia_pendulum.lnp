@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"inverterd_inertia_pendulum\startup_stm32f411xe.o"
+"inverterd_inertia_pendulum\main.o"
+"inverterd_inertia_pendulum\stm32f4xx_it.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_msp.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_adc.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_adc_ex.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_tim.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_tim_ex.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_rcc.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_rcc_ex.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_flash.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_flash_ex.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_flash_ramfunc.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_gpio.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_dma_ex.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_dma.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_pwr.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_pwr_ex.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal_cortex.o"
+"inverterd_inertia_pendulum\stm32f4xx_hal.o"
+"inverterd_inertia_pendulum\system_stm32f4xx.o"
+"inverterd_inertia_pendulum\pendulum.o"
+--library_type=microlib --strict --scatter "inverterd_inertia_pendulum\inverterd_inertia_pendulum.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "inverterd_inertia_pendulum.map" -o inverterd_inertia_pendulum\inverterd_inertia_pendulum.axf
