@@ -12,6 +12,7 @@ The video of it working can be seen on [Link](https://photos.app.goo.gl/Q3Gbn8rL
 <p><img src="./Photos/pendulum1.png" height="500px">
 <img src="./Photos/pendulum2.png" height="500px"></p>
 <img src="./Photos/exploded.png" height="500px"></p>
+
 # Electronics hardware
 - Nuceleo STM32F411RE - [Mouser](https://hr.mouser.com/ProductDetail/STMicroelectronics/NUCLEO-F411RE?qs=%2fha2pyFaduj0LE%252bzmDN2WGOyc9ZJn6rAAaZxUZnl1jWj%2fTN4JYE9Mw%3d%3d) 
 - Monster motor shield - [Ebay](https://www.ebay.com/itm/L298N-Dual-VNH2SP30-Stepper-Motor-Driver-Module-30A-Monster-Moto-Shield-Replace/112031018900?hash=item1a1591af94:g:R4YAAOSwEaBaTafh)
