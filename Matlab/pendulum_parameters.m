@@ -37,5 +37,5 @@ Rd = 10;
 [Kr, P] = dlqr(Gd.a,Gd.b,Qd,Rd);
 Kr =-Kr;
 
-% copy this to the code in the file pendulum.c
+% copy the output code to the file pendulum.c
 disp(strcat('float Kr[3] = {',num2str(Kr(1)),',',num2str(Kr(2)),',',num2str(Kr(3)),'};'))
