@@ -32,7 +32,7 @@ The video of it working can be seen on [Link](https://photos.app.goo.gl/Q3Gbn8rL
 - steel/amulinum/wooden plate (cca 90mm x 2mm x300mm)
 
 # 3D printed parts
--   Inetria wheel 
+-  Inetria wheel 
    - Motor shaft mount has to be adapted
    - The two provided wheel STLs are for 14tooth and 12tooth version of motors
    - Feel free to make your own version of the inertia wheel with the solidworks file
@@ -44,7 +44,7 @@ The video of it working can be seen on [Link](https://photos.app.goo.gl/Q3Gbn8rL
 
 # Control algorithm
  - PD (Simple)
- - LQR algorithm (Intermediate) - Included in the model + Synthesis using Matlab scirpt
+ - LQR algorithm (Intermediate) - <b>Included in the software + Synthesis using Matlab scirpt</b>
  - MPC (Advanced) - Suggested use of [muao MPC](http://ifatwww.et.uni-magdeburg.de/syst/muAO-MPC/)
 
 # Connecting the hardware
