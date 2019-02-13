@@ -2,6 +2,8 @@
 
 This project is suitable for anyone with extra free time and passion for interesing projects, but especially for electrical engineering studets (contorl theory students) to learn the control approach of an unstable process and test their algorithms, the primary contorller used in this project is LQR.  
 
+This project is also available on [Thingiverse](https://www.thingiverse.com/thing:3422949)
+
 This project is based on Nucleo STM32F411RE microcontroller. And the repo contains :
 - CubeMX project 
 - Keil project
@@ -10,7 +12,7 @@ This project is based on Nucleo STM32F411RE microcontroller. And the repo contai
 The video of it working can be seen on [Link](https://photos.app.goo.gl/Q3Gbn8rL3XPMuehf8):
  
 <p><img src="./Photos/video.gif" height="500px">
-<p><img src="./Photos/pendulum1.png" height="500px">
+<img src="./Photos/pendulum1.png" height="500px">
 <img src="./Photos/pendulum2.png" height="500px"></p>
 <img src="./Photos/exploded.png" height="500px"></p>
 
