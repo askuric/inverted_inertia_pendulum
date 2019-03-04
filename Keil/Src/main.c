@@ -42,7 +42,7 @@
 
 /* USER CODE BEGIN Includes */
 #include "pendulum.h"
-
+#include <math.h>
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -79,7 +79,31 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
-
+void Controller_SysTick(){
+	static int n_m,n_p;
+	
+	if(n_m >= (M_Ts*1000)){
+		// gather state variables
+		motor_variables_iter();
+		n_m=0;
+	}else{
+		n_m++;
+	}
+	if(n_p >= (P_Ts*1000)){
+		pendulum_variables_iter();
+		
+		if(fabs(pendulum.position) < P_SWITCH_ANGLE){
+			pendulum_LQR();
+			//pendulum_P();
+		}else{
+			pendulum_swingup();
+			//pendulum_disable();
+		}
+		n_p = 0;
+	}else{
+		n_p++;
+	}
+}
 /* USER CODE END 0 */
 
 /**

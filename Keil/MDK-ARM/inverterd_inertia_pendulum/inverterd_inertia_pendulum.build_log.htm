@@ -28,35 +28,41 @@ Project File Date:  02/05/2019
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Rebuild target 'inverterd_inertia_pendulum'
 assembling startup_stm32f411xe.s...
-compiling main.c...
-..\Inc\Pendulum_lib\pendulum.h(64): warning:  #1295-D: Deprecated declaration motor_variables_iter - give arg types
-  void motor_variables_iter();
-..\Inc\Pendulum_lib\pendulum.h(75): warning:  #1295-D: Deprecated declaration pendulum_variables_iter - give arg types
-  void pendulum_variables_iter();
-..\Inc\Pendulum_lib\pendulum.h(81): warning:  #1295-D: Deprecated declaration pendulum_LQR - give arg types
-  void pendulum_LQR();
-..\Inc\Pendulum_lib\pendulum.h(87): warning:  #1295-D: Deprecated declaration pendulum_P - give arg types
-  void pendulum_P();
-..\Inc\Pendulum_lib\pendulum.h(92): warning:  #1295-D: Deprecated declaration pendulum_disable - give arg types
-  void pendulum_disable();
-..\Inc\Pendulum_lib\pendulum.h(95): warning:  #1-D: last line of file ends without a newline
-  #endif /* MOTOR_H */
-../Src/main.c: 6 warnings, 0 errors
 compiling stm32f4xx_hal_msp.c...
 compiling stm32f4xx_it.c...
-..\Inc\Pendulum_lib\pendulum.h(64): warning:  #1295-D: Deprecated declaration motor_variables_iter - give arg types
+..\Inc\Pendulum_lib\pendulum.h(79): warning:  #1295-D: Deprecated declaration motor_variables_iter - give arg types
   void motor_variables_iter();
-..\Inc\Pendulum_lib\pendulum.h(75): warning:  #1295-D: Deprecated declaration pendulum_variables_iter - give arg types
+..\Inc\Pendulum_lib\pendulum.h(90): warning:  #1295-D: Deprecated declaration pendulum_variables_iter - give arg types
   void pendulum_variables_iter();
-..\Inc\Pendulum_lib\pendulum.h(81): warning:  #1295-D: Deprecated declaration pendulum_LQR - give arg types
+..\Inc\Pendulum_lib\pendulum.h(96): warning:  #1295-D: Deprecated declaration pendulum_LQR - give arg types
   void pendulum_LQR();
-..\Inc\Pendulum_lib\pendulum.h(87): warning:  #1295-D: Deprecated declaration pendulum_P - give arg types
+..\Inc\Pendulum_lib\pendulum.h(102): warning:  #1295-D: Deprecated declaration pendulum_P - give arg types
   void pendulum_P();
-..\Inc\Pendulum_lib\pendulum.h(92): warning:  #1295-D: Deprecated declaration pendulum_disable - give arg types
+..\Inc\Pendulum_lib\pendulum.h(107): warning:  #1295-D: Deprecated declaration pendulum_swingup - give arg types
+  void pendulum_swingup();
+..\Inc\Pendulum_lib\pendulum.h(112): warning:  #1295-D: Deprecated declaration pendulum_disable - give arg types
   void pendulum_disable();
-..\Inc\Pendulum_lib\pendulum.h(95): warning:  #1-D: last line of file ends without a newline
+..\Inc\Pendulum_lib\pendulum.h(115): warning:  #1-D: last line of file ends without a newline
   #endif /* MOTOR_H */
-../Src/stm32f4xx_it.c: 6 warnings, 0 errors
+../Src/stm32f4xx_it.c(42): warning:  #1295-D: Deprecated declaration Controller_SysTick - give arg types
+  void Controller_SysTick();
+../Src/stm32f4xx_it.c: 8 warnings, 0 errors
+compiling main.c...
+..\Inc\Pendulum_lib\pendulum.h(79): warning:  #1295-D: Deprecated declaration motor_variables_iter - give arg types
+  void motor_variables_iter();
+..\Inc\Pendulum_lib\pendulum.h(90): warning:  #1295-D: Deprecated declaration pendulum_variables_iter - give arg types
+  void pendulum_variables_iter();
+..\Inc\Pendulum_lib\pendulum.h(96): warning:  #1295-D: Deprecated declaration pendulum_LQR - give arg types
+  void pendulum_LQR();
+..\Inc\Pendulum_lib\pendulum.h(102): warning:  #1295-D: Deprecated declaration pendulum_P - give arg types
+  void pendulum_P();
+..\Inc\Pendulum_lib\pendulum.h(107): warning:  #1295-D: Deprecated declaration pendulum_swingup - give arg types
+  void pendulum_swingup();
+..\Inc\Pendulum_lib\pendulum.h(112): warning:  #1295-D: Deprecated declaration pendulum_disable - give arg types
+  void pendulum_disable();
+..\Inc\Pendulum_lib\pendulum.h(115): warning:  #1-D: last line of file ends without a newline
+  #endif /* MOTOR_H */
+../Src/main.c: 7 warnings, 0 errors
 compiling stm32f4xx_hal_adc_ex.c...
 compiling stm32f4xx_hal_adc.c...
 compiling stm32f4xx_hal_tim.c...
@@ -64,50 +70,62 @@ compiling stm32f4xx_hal_tim_ex.c...
 compiling stm32f4xx_hal_rcc.c...
 compiling stm32f4xx_hal_rcc_ex.c...
 compiling stm32f4xx_hal_flash_ramfunc.c...
-compiling stm32f4xx_hal_flash.c...
 compiling stm32f4xx_hal_flash_ex.c...
-compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_flash.c...
 compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_gpio.c...
 compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_cortex.c...
 compiling stm32f4xx_hal_pwr.c...
 compiling stm32f4xx_hal_pwr_ex.c...
-compiling stm32f4xx_hal_cortex.c...
-compiling stm32f4xx_hal.c...
 compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal.c...
 compiling pendulum.c...
-..\Inc\Pendulum_lib\pendulum.h(64): warning:  #1295-D: Deprecated declaration motor_variables_iter - give arg types
+..\Inc\Pendulum_lib\pendulum.h(79): warning:  #1295-D: Deprecated declaration motor_variables_iter - give arg types
   void motor_variables_iter();
-..\Inc\Pendulum_lib\pendulum.h(75): warning:  #1295-D: Deprecated declaration pendulum_variables_iter - give arg types
+..\Inc\Pendulum_lib\pendulum.h(90): warning:  #1295-D: Deprecated declaration pendulum_variables_iter - give arg types
   void pendulum_variables_iter();
-..\Inc\Pendulum_lib\pendulum.h(81): warning:  #1295-D: Deprecated declaration pendulum_LQR - give arg types
+..\Inc\Pendulum_lib\pendulum.h(96): warning:  #1295-D: Deprecated declaration pendulum_LQR - give arg types
   void pendulum_LQR();
-..\Inc\Pendulum_lib\pendulum.h(87): warning:  #1295-D: Deprecated declaration pendulum_P - give arg types
+..\Inc\Pendulum_lib\pendulum.h(102): warning:  #1295-D: Deprecated declaration pendulum_P - give arg types
   void pendulum_P();
-..\Inc\Pendulum_lib\pendulum.h(92): warning:  #1295-D: Deprecated declaration pendulum_disable - give arg types
+..\Inc\Pendulum_lib\pendulum.h(107): warning:  #1295-D: Deprecated declaration pendulum_swingup - give arg types
+  void pendulum_swingup();
+..\Inc\Pendulum_lib\pendulum.h(112): warning:  #1295-D: Deprecated declaration pendulum_disable - give arg types
   void pendulum_disable();
-..\Inc\Pendulum_lib\pendulum.h(95): warning:  #1-D: last line of file ends without a newline
+..\Inc\Pendulum_lib\pendulum.h(115): warning:  #1-D: last line of file ends without a newline
   #endif /* MOTOR_H */
-..\Src\Pendulum_lib\pendulum.c(18): warning:  #223-D: function "abs" declared implicitly
+..\Src\Pendulum_lib\pendulum.c(19): warning:  #223-D: function "abs" declared implicitly
   	if(abs(pwm) > PWMmax){
-..\Src\Pendulum_lib\pendulum.c(38): warning:  #223-D: function "abs" declared implicitly
+..\Src\Pendulum_lib\pendulum.c(39): warning:  #223-D: function "abs" declared implicitly
   		__HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_3, abs(pwm));
-..\Src\Pendulum_lib\pendulum.c(71): warning:  #1035-D: single-precision operand implicitly converted to double-precision
-  	motor.velocity = d_cnt/M_Ts*M_CPR2RAD;
-..\Src\Pendulum_lib\pendulum.c(56): warning:  #550-D: variable "d_cnt_1"  was set but never used
-  	static int d_cnt_1;
-..\Src\Pendulum_lib\pendulum.c(89): warning:  #223-D: function "abs" declared implicitly
+..\Src\Pendulum_lib\pendulum.c(57): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	dt = (HAL_GetTick() - dt)*1e-3; // elapsed time calculation
+..\Src\Pendulum_lib\pendulum.c(72): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	d_cnt = (dt / (dt + M_WTf))*(d_cnt) + (1 - (dt / (dt + M_WTf)))*d_cnt_1;
+..\Src\Pendulum_lib\pendulum.c(72): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	d_cnt = (dt / (dt + M_WTf))*(d_cnt) + (1 - (dt / (dt + M_WTf)))*d_cnt_1;
+..\Src\Pendulum_lib\pendulum.c(95): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	dt = (HAL_GetTick() - dt)*1e-3; // elapsed time calculation
+..\Src\Pendulum_lib\pendulum.c(101): warning:  #223-D: function "abs" declared implicitly
   	if (abs(d_cnt) > CNT_MAX){
-..\Src\Pendulum_lib\pendulum.c(85): warning:  #550-D: variable "d_cnt_1"  was set but never used
-  	static int d_cnt_1;
-..\Src\Pendulum_lib\pendulum.c(118): warning:  #223-D: function "abs" declared implicitly
+..\Src\Pendulum_lib\pendulum.c(92): warning:  #550-D: variable "d_cnt_1"  was set but never used
+  	static int cnt_1,real_count,d_cnt_1;
+..\Src\Pendulum_lib\pendulum.c(137): warning:  #223-D: function "abs" declared implicitly
   	if(abs((int)uk) > M_Umax) 	uk = uk > 0 ? M_Umax : -M_Umax;
-..\Src\Pendulum_lib\pendulum.c(134): warning:  #223-D: function "abs" declared implicitly
+..\Src\Pendulum_lib\pendulum.c(153): warning:  #223-D: function "abs" declared implicitly
   	if(abs((int)uk) > M_Umax) 	uk = uk > 0 ? M_Umax : -M_Umax;
-..\Src\Pendulum_lib\pendulum.c: 14 warnings, 0 errors
+..\Src\Pendulum_lib\pendulum.c(181): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		if((1.0*pendulum.E_tar) > pendulum.E_tot){ 
+..\Src\Pendulum_lib\pendulum.c(184): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		}else if((1.1*pendulum.E_tar) > pendulum.E_tot){ 
+..\Src\Pendulum_lib\pendulum.c(170): warning:  #177-D: variable "E_tar"  was declared but never referenced
+  		float E_kin,E_pot,E_tar;
+..\Src\Pendulum_lib\pendulum.c: 20 warnings, 0 errors
 linking...
-Program Size: Code=10824 RO-data=484 RW-data=44 ZI-data=1404  
+Program Size: Code=18530 RO-data=918 RW-data=84 ZI-data=1388  
 FromELF: creating hex file...
-"inverterd_inertia_pendulum\inverterd_inertia_pendulum.axf" - 0 Error(s), 26 Warning(s).
+"inverterd_inertia_pendulum\inverterd_inertia_pendulum.axf" - 0 Error(s), 35 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -130,7 +148,7 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.1.2
-Build Time Elapsed:  00:00:19
+Build Time Elapsed:  00:00:21
 </pre>
 </body>
 </html>

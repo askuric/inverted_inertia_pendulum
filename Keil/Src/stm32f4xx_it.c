@@ -39,6 +39,7 @@
 
 #include "pendulum.h"
 #include <math.h>
+void Controller_SysTick();
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
@@ -178,27 +179,12 @@ void PendSV_Handler(void)
 void SysTick_Handler(void)
 {
   /* USER CODE BEGIN SysTick_IRQn 0 */
-	static int n;
 	
   /* USER CODE END SysTick_IRQn 0 */
   HAL_IncTick();
   HAL_SYSTICK_IRQHandler();
   /* USER CODE BEGIN SysTick_IRQn 1 */
-	if(n >= (M_Ts*1000)){
-		// gather state variables
-		motor_variables_iter();
-		pendulum_variables_iter();
-		
-		if(fabs(pendulum.position) < PI/5){
-			pendulum_LQR();
-			//pendulum_P();
-		}else{
-			pendulum_disable();
-		}
-		n = 0;
-	}else{
-		n++;
-	}
+	Controller_SysTick();
   /* USER CODE END SysTick_IRQn 1 */
 }
 
