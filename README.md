@@ -9,8 +9,9 @@ This project is based on Nucleo STM32F411RE microcontroller. And the repo contai
 - Keil project
 - Solidworks files and STLs
 
-The video of it working can be seen on [Link](https://photos.app.goo.gl/Q3Gbn8rL3XPMuehf8):
+ [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/POPPNbzDYbw/0.jpg)](https://www.youtube.com/watch?v=POPPNbzDYbw)
  
+The video of it working can be seen on [Link](https://photos.app.goo.gl/Q3Gbn8rL3XPMuehf8):
 <p><img src="./Photos/video.gif" height="500px">
 <img src="./Photos/pendulum1.png" height="500px">
 <img src="./Photos/pendulum2.png" height="500px"></p>
