@@ -16,10 +16,10 @@ The video of it working can be seen on [Link](https://photos.app.goo.gl/Q3Gbn8rL
 <p><img src="./Photos/video.gif" height="500px">
 <img src="./Photos/pendulum1.png" height="500px">
 <img src="./Photos/pendulum2.png" height="500px"></p>
-<p><img src="./Photos/side_view.png" height="500px">
-<img src="./Photos/top_view.png" height="500px">
+<p><img src="./Photos/top_view.png" height="500px">
 <img src="./Photos/front_view.png" height="500px"></p>
-<p><img src="./Photos/exploded.png" height="500px"></p>
+<p><img src="./Photos/side_view.png" height="300px">
+<img src="./Photos/exploded.png" height="300px"></p>
 
 # Electronics hardware
 - Nuceleo STM32F411RE - [Mouser](https://hr.mouser.com/ProductDetail/STMicroelectronics/NUCLEO-F411RE?qs=%2fha2pyFaduj0LE%252bzmDN2WGOyc9ZJn6rAAaZxUZnl1jWj%2fTN4JYE9Mw%3d%3d) 
