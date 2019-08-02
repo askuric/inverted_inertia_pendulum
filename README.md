@@ -12,7 +12,7 @@ This project is based on Nucleo STM32F411RE microcontroller. And the repo contai
 YouTube link:<br>
  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/POPPNbzDYbw/0.jpg)](https://www.youtube.com/watch?v=POPPNbzDYbw)
  
-The video of it working can be seen on [Link](https://photos.app.goo.gl/Q3Gbn8rL3XPMuehf8):
+The full gallery of the project can be found on [Link](https://photos.app.goo.gl/RDtYy89tumxfFMtH9):
 <p><img src="./Photos/video.gif" height="350px">
 <img src="./Photos/pendulum1.png" height="350px">
 <img src="./Photos/pendulum2.png" height="350px">
